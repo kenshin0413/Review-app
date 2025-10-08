@@ -11,20 +11,26 @@ struct CountSettingView: View {
     @Binding var maxCount: Int
     @Binding var minCount: Int
     var body: some View {
-        VStack {
-            HStack {
-                Text("上限値：")
-                Stepper(value: $maxCount, step: 1) {
-                    Text("\(maxCount)")
+        NavigationStack {
+            VStack {
+                HStack {
+                    Text("上限値：")
+                    Stepper(value: $maxCount, step: 1) {
+                        Text("\(maxCount)")
+                            .foregroundColor(maxCount > 0 ? .green : maxCount < 0 ? .red : .black)
+                    }
+                }
+                
+                HStack {
+                    Text("下限値：")
+                    Stepper(value: $minCount, step: 1) {
+                        Text("\(minCount)")
+                            .foregroundColor(minCount < 0 ? .red : minCount > 0 ? .green : .black)
+                    }
                 }
             }
-            
-            HStack {
-                Text("下限値：")
-                Stepper(value: $minCount, step: 1) {
-                    Text("\(minCount)")
-                }
-            }
+            .navigationTitle("カウント設定")
+            .navigationBarTitleDisplayMode(.inline)
         }
         .padding()
     }

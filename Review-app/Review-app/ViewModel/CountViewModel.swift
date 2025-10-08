@@ -13,6 +13,8 @@ class CountViewModel: ObservableObject {
     @Published var minCount: Int = 0
     @Published var showAlert = false
     @Published var alertMessage = ""
+    @Published var showResetAlert = false
+    @Published var alertResetMessage = ""
     func plusCount() {
         if count < maxCount {
             count += 1
@@ -29,5 +31,10 @@ class CountViewModel: ObservableObject {
             showAlert = true
             alertMessage = "下限値に達しました。"
         }
+    }
+    
+    func reset() {
+        showResetAlert = true
+        alertResetMessage = "カウントをリセットしますか？"
     }
 }
