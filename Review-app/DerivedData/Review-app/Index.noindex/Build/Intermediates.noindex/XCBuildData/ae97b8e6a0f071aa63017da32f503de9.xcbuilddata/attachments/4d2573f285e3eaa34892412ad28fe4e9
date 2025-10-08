@@ -1,0 +1,39 @@
+{
+  "" : {
+    "dependencies" : "/Users/kenshin/Desktop/Review-app/Review-app/DerivedData/Review-app/Index.noindex/Build/Intermediates.noindex/Review-app.build/Debug-iphoneos/Review-app.build/Objects-normal/arm64/Review-app-master.d",
+    "diagnostics" : "/Users/kenshin/Desktop/Review-app/Review-app/DerivedData/Review-app/Index.noindex/Build/Intermediates.noindex/Review-app.build/Debug-iphoneos/Review-app.build/Objects-normal/arm64/Review-app-master.dia",
+    "emit-module-dependencies" : "/Users/kenshin/Desktop/Review-app/Review-app/DerivedData/Review-app/Index.noindex/Build/Intermediates.noindex/Review-app.build/Debug-iphoneos/Review-app.build/Objects-normal/arm64/Review-app-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kenshin/Desktop/Review-app/Review-app/DerivedData/Review-app/Index.noindex/Build/Intermediates.noindex/Review-app.build/Debug-iphoneos/Review-app.build/Objects-normal/arm64/Review-app-master-emit-module.dia",
+    "swift-dependencies" : "/Users/kenshin/Desktop/Review-app/Review-app/DerivedData/Review-app/Index.noindex/Build/Intermediates.noindex/Review-app.build/Debug-iphoneos/Review-app.build/Objects-normal/arm64/Review-app-master.swiftdeps"
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/DerivedData/Review-app/Index.noindex/Build/Intermediates.noindex/Review-app.build/Debug-iphoneos/Review-app.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/ContentView.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/Model/Fruit.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/Review_appApp.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/View/CountSettingView.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/View/CountView.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/View/HomeView.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/View/ListView.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/ViewModel/CountViewModel.swift" : {
+
+  },
+  "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/ViewModel/ListViewModel.swift" : {
+
+  }
+}

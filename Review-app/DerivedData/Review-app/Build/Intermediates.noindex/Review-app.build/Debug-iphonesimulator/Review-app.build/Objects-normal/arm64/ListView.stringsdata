@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/View/ListView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "果物リスト",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 22
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/kenshin/Desktop/Review-app/Review-app/Review-app/View/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "リスト",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "数字",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 26
+        }
+      }
+    ]
+  },
+  "version": 1
+}
