@@ -7,10 +7,15 @@
 
 import Foundation
 
-class FruitViewModel: ObservableObject {
-    @Published var fruits = [Fruit(name: "スイカ"), Fruit(name: "キウイ")]
+class ListViewModel: ObservableObject {
+    @Published var items = [Item(name: "スイカ"), Item(name: "キウイ")]
+    @Published var addItem = ""
     
     func remove(index: IndexSet) {
-        fruits.remove(atOffsets: index)
+        items.remove(atOffsets: index)
+    }
+    
+    func addList(name: String) {
+        items.append(Item(name: name))
     }
 }
