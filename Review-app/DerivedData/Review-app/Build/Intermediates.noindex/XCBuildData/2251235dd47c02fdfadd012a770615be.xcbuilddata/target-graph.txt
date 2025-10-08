@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'Review-app' in project 'Review-app' (no dependencies)
