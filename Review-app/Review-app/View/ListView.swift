@@ -14,8 +14,20 @@ struct ListView: View {
         NavigationStack {
             ZStack(alignment: .bottomTrailing) {
                 VStack {
+                    TextField("検索アイテム", text: $viewModel.searchItem)
+                        .textFieldStyle(.roundedBorder)
+                        .padding()
+                    
+                    Picker("並び替え", selection: $viewModel.sortOption) {
+                        ForEach(SortOption.allCases, id: \.self) { option in
+                            Text(option.rawValue)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                    .padding(.horizontal)
+                    
                     List {
-                        ForEach(viewModel.items) { item in
+                        ForEach(viewModel.searchFilterAndSortItem) { item in
                             Text(item.name)
                         }
                         .onDelete(perform: viewModel.remove)
@@ -36,6 +48,9 @@ struct ListView: View {
             .navigationBarTitleDisplayMode(.inline)
             .sheet(isPresented: $showModal) {
                 AddListView(viewModel: viewModel)
+            }
+            .task {
+                await viewModel.loadItems()
             }
         }
     }
