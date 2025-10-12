@@ -26,6 +26,14 @@ struct HomeView: View {
                 Label("数字", systemImage: "pencil")
             }
             .tag(2)
+            
+            NavigationStack {
+                ApiView()
+            }
+            .tabItem {
+                Label("API", systemImage: "network")
+            }
+            .tag(3)
         }
     }
 }
